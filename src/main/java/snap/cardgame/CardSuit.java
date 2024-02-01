@@ -1,18 +1,18 @@
 package snap.cardgame;
 
 public enum CardSuit {
-    Hearts("U+2665"),
-    Diamonds("U+2666"),
-    Spades("U+2660"),
-    Clubs("U+2663");
+    Hearts("♡"),
+    Diamonds("♢"),
+    Spades("♤"),
+    Clubs("♧");
 
-    private final String unicodeImage;
+    private final String unicodeStr;
 
-    CardSuit(String unicodeImage) {
-        this.unicodeImage = unicodeImage;
+    CardSuit(String unicodeStr) {
+        this.unicodeStr = unicodeStr;
     }
 
-    public String getUnicodeImage() {
-        return unicodeImage;
+    public String getUnicodeStr() {
+        return unicodeStr;
     }
 }
