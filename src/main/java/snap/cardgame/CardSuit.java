@@ -11,4 +11,8 @@ public enum CardSuit {
     CardSuit(String unicodeImage) {
         this.unicodeImage = unicodeImage;
     }
+
+    public String getUnicodeImage() {
+        return unicodeImage;
+    }
 }
