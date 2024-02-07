@@ -8,7 +8,8 @@ import snap.player.Player;
 public class GameRunner {
     SnapCommands commands = new SnapCommands();
     Snap cardGame = new Snap("Test");
-    public void SnapInit() {
+
+    public void snapInit() {
         cardGame.newDeck();
         cardGame.setDeckOfCards(cardGame.shuffleDeck());
     }
@@ -24,7 +25,7 @@ public class GameRunner {
         }
     }
 
-    public void SnapLoop(){
+    public void snapLoop(){
         cardGame.playerInit();
         while(true) {
             if(commands.pressEnter()) {

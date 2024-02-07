@@ -22,11 +22,10 @@ public class SnapCommands extends Commands {
 
             try {
                 int intInput = Integer.parseInt(input);
-                // Check if the number is within the allowed range
+
                 if (intInput < 1 || intInput > numLimit) {
                     System.out.println("Invalid input! Number must be between 0 and " + numLimit + ".");
                 } else {
-                    // If the input is valid, return the parsed integer
                     return intInput;
                 }
             } catch (NumberFormatException e) {

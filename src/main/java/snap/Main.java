@@ -6,8 +6,8 @@ import snap.gamerunner.GameRunner;
 public class Main {
     public static void main(String[] args) {
         GameRunner gameRunner = new GameRunner();
-        gameRunner.SnapInit();
+        gameRunner.snapInit();
         gameRunner.inititaliseGame();
-        gameRunner.SnapLoop();
+        gameRunner.snapLoop();
     }
 }
