@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         GameRunner gameRunner = new GameRunner();
         gameRunner.snapInit();
-        gameRunner.inititaliseGame();
+        gameRunner.initialiseGame();
         gameRunner.snapLoop();
     }
 }

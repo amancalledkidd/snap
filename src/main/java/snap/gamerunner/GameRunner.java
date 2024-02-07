@@ -14,7 +14,7 @@ public class GameRunner {
         cardGame.setDeckOfCards(cardGame.shuffleDeck());
     }
 
-    public void inititaliseGame() {
+    public void initialiseGame() {
         System.out.println("\nWelcome to Snap!\n\n");
         System.out.println("How many players would like to join?");
         int players = commands.getIntegerInput(6);
