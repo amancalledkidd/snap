@@ -1,4 +1,4 @@
-package snap.cardgame;
+package snap.card;
 
 public enum CardSuit {
     Hearts("♡"),

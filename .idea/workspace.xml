@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d0443c-b840-43e7-bae1-ac7915091fbb" name="Changes" comment="Card game setup finished, can create deck of cards">
+    <list default="true" id="19d0443c-b840-43e7-bae1-ac7915091fbb" name="Changes" comment="shuffle and sorting card functions now added">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/snap/cardgame/Snap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/snap/commands/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/snap/commands/SnapCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/snap/gamerunner/GameRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/snap/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/snap/card/CardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/snap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snap/cardgame/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snap/card/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/snap/cardgame/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snap/cardgame/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snap/cardgame/CardRanks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snap/card/CardRanks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snap/cardgame/CardSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snap/card/CardSuit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,12 +54,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/kumanikidd/Programming/Nology/4_Java/snap/src/main/java/snap/Main.java",
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="snap.card" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="snap.commands" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snap.Main" />
@@ -115,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706798699381</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="shuffle and sorting card functions now added">
+      <option name="closed" value="true" />
+      <created>1706804731084</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706804731085</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +157,7 @@
     <MESSAGE value="Suit enum created" />
     <MESSAGE value="updated cardSuit and created cardRanks enum" />
     <MESSAGE value="Card game setup finished, can create deck of cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="Card game setup finished, can create deck of cards" />
+    <MESSAGE value="shuffle and sorting card functions now added" />
+    <option name="LAST_COMMIT_MESSAGE" value="shuffle and sorting card functions now added" />
   </component>
 </project>

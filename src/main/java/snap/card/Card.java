@@ -1,4 +1,4 @@
-package snap.cardgame;
+package snap.card;
 
 public class Card {
     private final CardSuit suit;

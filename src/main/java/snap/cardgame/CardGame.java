@@ -1,9 +1,11 @@
 package snap.cardgame;
 
+import snap.card.Card;
+import snap.card.CardRanks;
+import snap.card.CardSuit;
+
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
-import java.util.Random;
 import java.util.stream.Collectors;
 
 public class CardGame {

@@ -1,4 +1,4 @@
-package snap.cardgame;
+package snap.card;
 
 public enum CardRanks {
     Two("2", 2),
